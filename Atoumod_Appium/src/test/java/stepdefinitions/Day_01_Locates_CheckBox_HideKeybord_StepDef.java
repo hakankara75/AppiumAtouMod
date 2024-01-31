@@ -48,7 +48,6 @@ public class Day_01_Locates_CheckBox_HideKeybord_StepDef {
         assertTrue(page.checkBoxes.get(0).isSelected());
     }
 
-
     @Then("verify conquer world checkbox uncheck")
     public void verify_conquer_world_checkbox_uncheck() {
         assertFalse(page.conquerWorld.isSelected());

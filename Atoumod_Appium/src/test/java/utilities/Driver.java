@@ -17,12 +17,10 @@ public class Driver {
 
     private Driver() {
     }
-
     private static UiAutomator2Options options;
     private static XCUITestOptions iosOptions;
     public static AppiumDriverLocalService service;
     private static AppiumDriver driver;
-
 
     public static AndroidDriver getDriver() {
 
