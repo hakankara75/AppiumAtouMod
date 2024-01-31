@@ -34,10 +34,12 @@ public class Day_01_Locates_CheckBox_HideKeybord_StepDef {
         page.accessibilityElements.get(0).click();
     }
 
+
     @Then("click on accessibility node querying")
     public void click_on_accessibility_node_querying() {
         page.accessibilityNodeQuerying.get(0).click();
     }
+
 
     @Then("verify take out trash checkbox check")
     public void verify_take_out_trash_checkbox_check() {
@@ -45,6 +47,7 @@ public class Day_01_Locates_CheckBox_HideKeybord_StepDef {
         System.out.println("apiDemosScreenPage.takeOutTrash.isSelected() = " + page.checkBoxes.get(0).isSelected());
         assertTrue(page.checkBoxes.get(0).isSelected());
     }
+
 
     @Then("verify conquer world checkbox uncheck")
     public void verify_conquer_world_checkbox_uncheck() {
