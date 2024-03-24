@@ -52,6 +52,7 @@ public class Driver {
 
 //  .setAvd("Pixel7") //ile kapali cihaz test run edilince once acilir sonra test kosulur.
 //  .setAvdLaunchTimeout(Duration.ofMinutes(3))
+
                             /*
                                   .setUdid()  metotu  setDeviceName() yerine is gorur. 1 cihaz teste bagli ise bunu kullanmaya gerek yok.
                                     .setUdid() bilgisini almak icin cihazlar acik iken cmd ekranina adb devices komutu yazilir
